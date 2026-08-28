@@ -122,5 +122,3 @@ roxygen2::roxygenise()
 # regression + functionality + leak tests
 NOT_CRAN=true Rscript -e 'testthat::test_local()'
 ```
-
-Targets flowR **2.13.8**.
